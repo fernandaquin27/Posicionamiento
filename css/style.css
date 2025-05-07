@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-right: 40px;
+}
+main {
+    width: 93%;
+    float: right;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+aside>ul>img {
+    width: 40%;
+    padding: 10px;
+    display: inline-block;
+}
+aside {
+    width: 6%;
+    float: left;
+    height: 100vh;
+    background-color: #E5E4E2;
+}
+header>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    
+}
+header {
+    margin: 20px;
+
+}
+header>input {
+   background-color: #E5E4E2;
+   margin-left: 40px;
+   width: 80%;
+   border-radius: 5px;
+}
+div {
+    width: 96%;
+    position: relative;
+    padding-left: 10px;
+}
+input {
+    width: 90%;
+    background-color: white;
+    margin-right: 3em;
+    padding: 10px;
+    border: none;
+}
+.contenedor {
+    padding-left: 10px;
+    width: 100%;
+    position: relative;
+}
+.columna {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+}
+.caja {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    position: relative;
+}
+.caja>img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+nav {
+    margin: 20px;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+button:hover {
+    background-color: #E5E4E2;
+}
+button {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px; 
+}
